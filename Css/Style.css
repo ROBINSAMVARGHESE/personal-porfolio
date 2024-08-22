@@ -1,0 +1,137 @@
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px; 
+    margin-bottom: 10px; 
+    font-size: 1rem; 
+    color: #333; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+
+body{
+    background:linear-gradient(to right,rgb(13, 39, 48),rgb(134, 113, 113));
+}
+
+.container{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/* About Me Section */
+.about img {
+    max-width: 100%;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    background: #eee;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+/* Portfolio Section */
+
+.portfolio h3 {
+    color: #000; 
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    width: 20em; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: auto; 
+}
+
+/* Contact Form Section */
+
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#formFeedback {
+    color: green;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
